@@ -17,7 +17,7 @@ if __name__ == "__main__":
     filein = reader.read()
     
     nl = rReplace(filein)
-    
+    print("Your new file is: "+ rfile)
     writer.write(nl)
     
     writer.close()
